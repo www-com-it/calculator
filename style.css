@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&family=Zen+Dots&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    background-color: #001427;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 40px;
+}
+
+.main h1 {
+    color: #f4d58d;
+    font-size: 40px;
+    user-select: none;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.input button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8d0801;
+    color: #f4d58d;
+}
+
+.input button:active {
+    background-color: #8d08019f;
+}
+
+.nomi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nomi h3 {
+    color: #f4d58d;
+    font-size: 30px;
+    user-select: none;
+}
+
+.nomi p {
+    color: #f4d58d;
+    font-size: 20px;
+    user-select: none;
+}
+
+#risultato {
+    color: #dd0b00;
+    font-size: 20px;
+    user-select: none;
+}
